@@ -71,6 +71,13 @@ int main()
             printf("\nIt's a draw!\n");
             break;
         }
+        }
+
+        if (full == 1)
+        {
+            printf("\nIt's a draw!\n");
+            break;
+        }
 
         // Switch player
         if (player == 1)
